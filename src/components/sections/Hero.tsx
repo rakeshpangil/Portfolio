@@ -16,9 +16,49 @@ const Hero = () => {
                     <a href="#contact" className="btn btn-secondary">Contact Me</a>
                 </div>
             </div>
-            <div className="hero-image animate-fade-in" style={{ animationDelay: '0.6s' }}>
-                <div className="image-wrapper glass">
-                    <img src="https://api.dicebear.com/9.x/avataaars/svg?seed=Rakesh&backgroundColor=b6e3f4" alt="Profile" />
+            <div className="devices-container animate-fade-in" style={{ animationDelay: '0.6s' }}>
+                {/* Laptop */}
+                <div className="laptop-wrapper floating" style={{ animationDelay: '0s' }}>
+                    <div className="laptop-screen">
+                        <div className="app-content laptop-view">
+                            <div className="app-header">
+                                <span className="logo">RP</span>
+                                <nav>
+                                    <span className="active">Home</span>
+                                    <span>About</span>
+                                    <span>Work</span>
+                                    <span>Contact</span>
+                                </nav>
+                            </div>
+                            <div className="app-body">
+                                <div className="text-content">
+                                    <h1>Building<br />Digital<br />Products</h1>
+                                    <p>Mobile & Web Development</p>
+                                    <div className="app-btn">View Projects</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="laptop-base"></div>
+                </div>
+
+                {/* Mobile */}
+                <div className="phone-wrapper floating" style={{ animationDelay: '0.5s' }}>
+                    <div className="phone-frame">
+                        <div className="phone-screen">
+                            <div className="mobile-app-content">
+                                <div className="mobile-avatar">
+                                    <img src="https://api.dicebear.com/9.x/avataaars/svg?seed=Rakesh&backgroundColor=b6e3f4" alt="Profile" />
+                                </div>
+                                <div className="mobile-text">
+                                    <h3>Hello I'm</h3>
+                                    <h1>Rakesh</h1>
+                                    <p>Mobile App<br />Developer</p>
+                                    {/* <div className="mobile-btn">Hire Me</div> */}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
