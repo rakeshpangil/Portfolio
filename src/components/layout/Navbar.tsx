@@ -7,7 +7,7 @@ const Navbar = () => {
     return (
         <nav className="navbar glass">
             <div className="navbar-container">
-                <a href="#home" className="logo gradient-text">Portfolio</a>
+                <a href="#home" className="logo gradient-text"></a>
 
                 <div className="menu-icon" onClick={() => setIsOpen(!isOpen)}>
                     <span className={isOpen ? "bar open" : "bar"}></span>
